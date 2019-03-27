@@ -122,9 +122,6 @@ function whatItSays() {
         action = randomArr[0];
         actionName = randomArr[1];
 
-        console.log(action);
-        console.log(actionName);
-
         switch (action) {
             case "concert-this":
                 concert();
